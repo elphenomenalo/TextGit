@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background: #efeeec;
+    font-family: "Poppins", serif;
+    color: #333;
+    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url("../images/esig.jpg") no-repeat center center/cover;
+}
+.login{
+   
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-card{
+    background: #fff;
+    border-radius: 6px;
+    width: 100%;
+}
+.login-card form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 30px;
+    width: 100%;
+}
+.login-card form input{
+    margin: 14px 0;
+    padding: 8px ;
+    width: 450px;
+    border-radius: 8px;
+    background: #e0e0e0;
+    border: 1px solid #e0e0e0;
+    outline: none;
+    color: #000;
+    font-weight: 600;
+    font-size: 1rem;
+}
+.login-card form h2{
+    font-size: 1.7rem;
+    font-weight: 200;
+}
+.login-card form p{
+    font-size: 0.9rem;
+    margin: 10px 0;
+}
+.login-card form p a{
+    text-decoration: none;
+    margin-left: 4px;
+    transition: text-decoration .3s ease;
+}
+.login-card form p a:hover{
+    text-decoration: underline;
+}
+.login-card form button{
+    padding: 10px 20px;
+    background-color: rgb(83, 198, 83);
+    color: #fff;
+    font-weight: 600;
+    width: 35%;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background .3s ease;
+}
+.login-card form button:hover{
+    background-color: rgb(18, 45, 18);
+}
+@media (max-width: 768px){
+    .login-card form input{
+        width: 300px;
+    }
+}

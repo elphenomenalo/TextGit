@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UniVerseBlog</title>
+    <!-- link css -->
+    <link rel="stylesheet" href="../css/admin.css">
+    <!-- link aos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+        integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- link fontawesone -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- link swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- link CKEeditor -->
+    <link rel="stylesheet" href="https://cdn.ckeditor.com/ckeditor5/44.1.0/ckeditor5.css" />
+
+</head>
+
+<body>
+
+    <!-- Start section adminPannel -->
+    <section class="pannelAdmin">
+        <div class="pannel-container">
+            <div class="pannel-header">
+                <div class="pannel-title">
+                    <h2>UniVerseBlog<span>Admin</span></h2>
+                </div>
+                <form action="">
+                    <span><i class="fa-solid fa-magnifying-glass"></i></span>
+                    <input type="search" placeholder="Rechercher...">
+                </form>
+            </div>
+            <div class="admin-profil">
+                <div class="admin-profil-info">
+                    <div class="notif-icon">
+                        <p><i class="fa-regular fa-bell"></i><span></span></p>
+                    </div>
+                    <div class="admin-img">
+                        <img src="../images/user.jpg" alt="">
+                    </div>
+                </div>
+                <div class="admin-profil-text">
+                    <h5>Elphenomenalo</h5>
+                    <h6>Elphenomenalo@gmail.com</h6>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- End section -->
+
+    <!-- Start section main-pannel -->
+    <section class="main-pannel">
+        <div class="container">
+            <div class="main-container">
+
+                <div class="slide">
+                    <div class="slide-bar">
+                        <h4><a href="panelAdmin.html"><span><i class="fa-solid fa-gauge"></i></span>Tableau de bord</a></h4>
+                        <h4><a href="#article"><span><i class="fa-regular fa-newspaper"></i></span>Article</a></h4>
+                        <h4><a href="#comment"><span><i class="fa-regular fa-comment"></i></span>Commentaire</a></h4>
+                        <h4><a href="#tags"><span><i class="fa-solid fa-tag"></i></span>Tags</a></h4>
+                        <h4><a href="#setting"><span><i class="fa-solid fa-gear"></i></span>Paramètre</a></h4>
+                        <div class="deconnexion">
+                            <a href=""><span><i class="fa-solid fa-right-from-bracket"></i></span>Déconnexion</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="content-area">
+
+                    <div class="pannel-card">
+                        <div class="admin-card">
+                            <div class="admin-card-title">
+                                <h1>Tableau de bord</h1>
+                                <p>Bienvenue <span>Elphenomenalo</span> dans votre espace d'administration</p>
+                            </div>
+                            <div class="admin-cards-items">
+                                <div class="admin-card-item">
+                                    <div class="card-title">
+                                        <h6>Total Article</h6>
+                                        <h3>124</h3>
+                                        <p>+12% ce mois</p>
+                                    </div>
+                                    <div class="card-icon">
+                                        <span><i class="fa-regular fa-newspaper"></i></span>
+                                    </div>
+                                </div>
+                                <div class="admin-card-item">
+                                    <div class="card-title">
+                                        <h6>Utilisateurs</h6>
+                                        <h3>124</h3>
+                                        <p>+12% ce mois</p>
+                                    </div>
+                                    <div class="card-icon">
+                                        <span><i class="fa-regular fa-user"></i></span>
+                                    </div>
+                                </div>
+                                <div class="admin-card-item">
+                                    <div class="card-title">
+                                        <h6>Commentaires</h6>
+                                        <h3>124</h3>
+                                        <p>+12% ce mois</p>
+                                    </div>
+                                    <div class="card-icon">
+                                        <span><i class="fa-regular fa-comment"></i></span>
+                                    </div>
+                                </div>
+                                <div class="admin-card-item">
+                                    <div class="card-title">
+                                        <h6>Vues Total</h6>
+                                        <h3>124</h3>
+                                        <p>+12% ce mois</p>
+                                    </div>
+                                    <div class="card-icon">
+                                        <span><i class="fa-solid fa-chart-simple"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="activity">
+                            <div class="activity-items">
+                                <div class="activity-title">
+                                    <h3>Articles Récents</h3>
+                                </div>
+                                <hr class="hr1">
+                                <div class="article">
+                                    <h4>L'impact de l'IA dans l'éducation supérieure</h4>
+                                    <div class="article1">
+                                        <p>elphenomenalo
+                                            <span>10-10-2024</span>
+                                        </p>
+                                        <div class="status">
+                                            <span>Publié</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr class="hr2">
+                                <div class="article">
+                                    <h4>L'impact de l'IA dans l'éducation supérieure</h4>
+                                    <div class="article1">
+                                        <p>elphenomenalo
+                                            <span>10-10-2024</span>
+                                        </p>
+                                        <div class="status">
+                                            <span>Publié</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr class="hr2">
+                            </div>
+
+                            <div class="activity-items">
+                                <div class="activity-title">
+                                    <h3>Activité Récente</h3>
+                                </div>
+                                <div class="article">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="article"  class="article-area">
+
+                       <div class="articles-cards">
+                        <div class="article-card">
+                            <a href="#formular">
+                                <h2>Créer un articles<span><i class="fa-solid fa-plus"></i></span></h2>
+                            </a>
+                        </div>
+                        <div class="article-card">
+                            <a href="">
+                                <h2>Article publiés<span><i class="fa-solid fa-pen"></i></span></h2>
+                            </a>
+                        </div>
+                        <div class="article-card">
+                            <a href="">
+                                <h2>List des articles<span><i class="fa-solid fa-list"></i></span></h2>
+                            </a>
+                        </div>
+                       </div>
+                       <div class="list-article">
+                        
+                        <div class="list-form">
+                            <form action="">
+                                <h2>Les articles</h2>
+                                <table>
+                                   <thead>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Titre</th>
+                                        <th>Tags</th>
+                                        <th>status</th>  
+                                    </tr>
+                                   </thead>
+                                   <tbody>
+                                    <tr>                                    
+                                        <td>1</td>
+                                        <td>Université</td>
+                                        <td>Aventure</td>
+                                        <td>Actif</td>
+                                    </tr>
+                                   </tbody>
+                                </table>
+                            </form>
+                        </div>
+                       </div>
+                    </div>
+                    <div class="formular" id="formular">
+                        <h2>ghhjjhjhjh</h2>
+                       </div>
+                    <div id="comment" class="comment-area">
+                       <div class="commentaire">
+                        <h2>COMMENTAIRES</h2>
+                       </div>
+                    </div>
+                    <div id="tags" class="tags-area">
+                        <h2>TAGS</h2>
+                    </div>
+                    <div id="setting" class="setting-area">
+                        <h2>Parametre</h2>
+                    </div>
+                    <div id="article" class="article-area">
+                        <h2>ARTICLE</h2>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- End section-main-pannel -->
+
+</body>
+
+
+<!-- link of aos -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+    integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- link of swiper -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<!-- link of CKEditor -->
+<script src="https://cdn.ckeditor.com/ckeditor5/44.1.0/ckeditor5.umd.js"></script>
+
+<!-- link of main JS -->
+ 
+<script src="js/main.js"></script>
+<!-- link of admin JS -->
+ <script src="../js/admin.js"></script>
+
+</body>
+
+</html>
